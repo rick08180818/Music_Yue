@@ -1,4 +1,4 @@
-# Music_Yue
+# Discord Music_Yue
 made by YingheYue
 
 # HOW TO USE
