@@ -2,11 +2,12 @@
 made by YingheYue
 
 # HOW TO USE
-/add to add song to playlist
-/play to play song form playlist
-/stop to stop play
-/skip to play next song
-/remove to remove song from playlist
+
+/add to add song to playlist<br>
+/play to play song form playlist<br>
+/stop to stop play<br>
+/skip to play next song<br>
+/remove to remove song from playlist<br>
 /view to view playlist
 
 # Know Bugs
