@@ -1,5 +1,5 @@
-# Discord Music_Yue
-made by YingheYue
+# Discord Music Bot
+made by WJC
 
 # HOW TO USE
 
@@ -14,4 +14,3 @@ made by YingheYue
 If bot cna't play song (user no in voice channel),it will then remove song from playlist
 
 # Invitation link
-https://discord.com/api/oauth2/authorize?client_id=1110436097147805787&permissions=8&scope=bot
