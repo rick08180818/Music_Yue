@@ -1,5 +1,5 @@
 # Discord Music Bot
-made by WJC
+Made by WJC
 
 # HOW TO USE
 
