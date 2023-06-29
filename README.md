@@ -14,3 +14,4 @@ Made by WJC
 If bot cna't play song (user no in voice channel),it will then remove song from playlist
 
 # Invitation link
+https://discord.com/api/oauth2/authorize?client_id=1123863523911548978&permissions=8&scope=bot
