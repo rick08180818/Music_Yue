@@ -57,10 +57,7 @@ async function playNextSong(interaction) {
     
         player.on('error', error => {
             console.error(`Error from audio player: ${error.message}`);
-            // If the video cannot be played, remove it from the playlist
-            removeSong(interaction.guild.id, songUrl);
-            interaction.channel.send(`The video at ${songUrl} could not be played and has been removed from the playlist.`);
-        });
+        })
     
         player.on('idle', async () => {
             connection.destroy();
@@ -74,9 +71,6 @@ async function playNextSong(interaction) {
         throw new Error('The playlist is empty.');
     }
 }
-
-
-
 
 function stopPlaying() {
     if (player) {

@@ -12,7 +12,6 @@ module.exports = {
             await interaction.followUp('Playing the next song from the playlist');
         } catch (error) {
             console.error(`Error in play command: ${error.message}`);
-            await interaction.followUp(`Failed to play the song: ${error.message}`);
         }
     }
 };

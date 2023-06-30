@@ -57,16 +57,8 @@ module.exports.getNextSong = function (guildId) {
     return song;
 }
 
-module.exports.showplaylist = function (guildId) {
-    if (!playlists.has(guildId)) {
-        return null;
-    }
-    const playlist = playlists.get(guildId);
-    return playlist;
-}
-
 module.exports.getPlaylist = function (guildId) {
-    return playlists.get(guildId) || [];
+    return playlists.get(guildId);
 }
 
 
